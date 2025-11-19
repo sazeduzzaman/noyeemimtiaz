@@ -2526,6 +2526,7 @@ Ready Components Stylesheet
     font-size: 14px;
     font-style: normal;
     font-weight: var(--fw-normal);
+    text-align: start;
     line-height: 24px;
     letter-spacing: 0px;
     margin-bottom: 0px;
@@ -6595,10 +6596,10 @@ svg.radial-progress {
 
 /* Style Oval */
 .social-box.style-oval ul li a {
-    font-size: 13px;
+    font-size: 15px;
     line-height: 15px;
-    width: 50px;
-    height: 27px;
+    width: 35px;
+    height: 35px;
     border-radius: 100%;
     background-color: transparent;
     border: 1px solid var(--color-white);

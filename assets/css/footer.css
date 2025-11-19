@@ -68,9 +68,6 @@
     position: relative;
     line-height: normal;
 }
-.footer .footer-nav li + li {
-    margin-top: 26px;
-}
 .footer .footer-nav li a {
     position: relative;
     display: inline-flex;
