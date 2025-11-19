@@ -303,6 +303,7 @@ Ready Components Stylesheet
   left: 0;
   right: 0;
   z-index: 0;
+  background: #000000bd;
 }
 .wptb-page-heading .wptb-item--title {
   position: relative;
