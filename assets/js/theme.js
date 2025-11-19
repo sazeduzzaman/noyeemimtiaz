@@ -1,9 +1,9 @@
 /*
-Theme Name: Noyeem - Photography Agency
+Theme Name: Noyeem 
 Version: 1.0
-Author: WPThemeBooster
+Author: Noyeem
 Author URL: 
-Description: Noyeem - Photography Agency
+Description: Noyeem
 */
 /*	IE 10 Fix*/
 
@@ -198,9 +198,9 @@ Description: Noyeem - Photography Agency
         // Slider Three
         var SwiperSliderThree = new Swiper('.wptb-swiper-slider-three', {
             loop: true,
-            // autoplay: {
-            //     delay: 3000,
-            // },
+            autoplay: {
+                delay: 3000,
+            },
             effect: 'fade',
             autoHeight: true,
             speed: 2500,
