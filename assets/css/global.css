@@ -1190,12 +1190,12 @@ body::-webkit-scrollbar-thumb {
 
 /* Use this markup based on above css */
 /* <ul class="pagination">
-    <li><a class="disabled page-number previous" href="#"><i class="ion-ios-arrow-thin-left"></i></a></li>
+    <li><a class="disabled page-number previous" href="javascript:void(0)"><i class="ion-ios-arrow-thin-left"></i></a></li>
     <li><span class="page-number current">1</span></li>
-    <li><a class="page-number" href="#">2</a></li>
+    <li><a class="page-number" href="javascript:void(0)">2</a></li>
     <li>.....</li>
-    <li><a class="page-number" href="#">9</a></li>
-    <li><a class="page-number next" href="#"><i class="ion-ios-arrow-thin-right"></i></a></li>
+    <li><a class="page-number" href="javascript:void(0)">9</a></li>
+    <li><a class="page-number next" href="javascript:void(0)"><i class="ion-ios-arrow-thin-right"></i></a></li>
 </ul> */
 
 

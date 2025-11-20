@@ -16,6 +16,13 @@
 
 .logo {
   position: relative;
+  width: 300px;
+  min-width: 110px;
+  transition: var(--transition-base);
+}
+.footer-logo{
+  position: relative;
+  width: 380px;
   min-width: 110px;
   transition: var(--transition-base);
 }

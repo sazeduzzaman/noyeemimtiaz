@@ -28,7 +28,11 @@
     <link rel="canonical" href="https://www.yourdomain.com/" />
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="./assets/img/site/favicon.png" type="image/png" />
+    <link
+      rel="shortcut icon"
+      href="./assets/img/site/favicon.png"
+      type="image/png"
+    />
     <link rel="apple-touch-icon" href="./assets/img/apple-touch-icon.png" />
     <link
       rel="apple-touch-icon"
@@ -102,11 +106,6 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="./assets/css/main.css" />
-    <style>
-      #load-more {
-        display: none;
-      }
-    </style>
   </head>
 
   <body class="theme-style--light">
@@ -114,7 +113,11 @@
     <div id="preloader">
       <div class="preloader-inner">
         <div class="spinner">
-          <img src="./assets/img/site/favicon.png" alt="img" class="spinner-grow"/>
+          <img
+            src="./assets/img/site/favicon.png"
+            alt="img"
+            class="spinner-grow"
+          />
         </div>
       </div>
     </div>
@@ -429,416 +432,131 @@
           <div class="wptb-item-layer wptb-item-layer-one">
             <img src="./assets/img/more/circle.png" alt="img" />
           </div>
-          <h2 class="wptb-item--title">Gallery</h2>
+          <h2 class="wptb-item--title">Contact</h2>
         </div>
       </div>
-      <section class="wptb-project pb-5">
+
+      <!-- Google Map -->
+      <div class="gmapbox wow fadeInUp">
+        <div class="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.2953333996315!2d90.40648947589756!3d23.772495387926686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c779bd6ee47f%3A0x73b4315f5f970bda!2sNogor%20Solutions%20Limited!5e0!3m2!1sen!2sbd!4v1763619263455!5m2!1sen!2sbd"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+
+      <section
+        class="wptb-contact-form bg-image-5"
+        style="background-image: url('./assets/img/background/bg-9.jpg')"
+      >
         <div class="container">
-          <div class="wptb-heading">
-            <div class="wptb-item--inner text-center">
-              <h6 class="wptb-item--subtitle">
-                <span>01//</span> Noyeem's Gallery
-              </h6>
-              <h1 class="wptb-item--title">
-                A Curated Collection Of <br />
-                <span>Noyeem Imtiaz Neamul’s</span>
-              </h1>
-            </div>
-          </div>
-
-          <div class="style-masonry effect-blur">
-            <div
-              class="grid gallery-grid grid-3 gutter-10 clearfix"
-              style="position: relative; height: 1713.66px"
-            >
-              <div class="grid-sizer"></div>
-              <div
-                class="grid-item"
-                style="position: absolute; left: 0%; top: 0px"
-              >
-                <div class="wptb-item--inner">
-                  <div class="wptb-item--image">
-                    <img src="./assets/img/gallary/1.jpg" alt="img" />
+          <div class="wptb-form--wrapper no-bg">
+            <div class="row">
+              <div class="col-lg-5">
+                <div class="wptb-heading">
+                  <div class="wptb-item--inner">
+                    <h6 class="wptb-item--subtitle">
+                      <span>01 //</span> Contact Us
+                    </h6>
+                    <h1 class="wptb-item--title">
+                      Feel Free To Ask Us <span>Anything</span>
+                    </h1>
+                  </div>
+                </div>
+                <div class="widget">
+                  <div class="wptb-office">
+                    <div class="wptb-item--inner">
+                      <div class="wptb-item--subtitle">Address</div>
+                      <h5 class="wptb-item--title">
+                        <a href="javascript:void(0)">
+                          Road 8, House 69, Block D, Niketon,<br> Gulshan 1,
+                          Dhaka</a
+                        >
+                      </h5>
+                    </div>
                   </div>
 
-                  <div class="wptb-item--holder">
-                    <div class="wptb-item--meta">
-                      <h4>
-                        <a href="javascript:void(0)">Awesome Events</a>
-                      </h4>
-                      <p>Team Noyeem</p>
+                  <div class="wptb-office">
+                    <div class="wptb-item--inner">
+                      <div class="wptb-item--subtitle">SEND US EMAIL</div>
+                      <h5 class="wptb-item--title">
+                        <a href="mailto:noyeemimtiaz@gmail.com"
+                          >noyeemimtiaz@gmail.com</a
+                        >
+                      </h5>
                     </div>
                   </div>
                 </div>
               </div>
 
-              <div
-                class="grid-item"
-                style="position: absolute; left: 33.3297%; top: 0px"
-              >
-                <div class="wptb-item--inner">
-                  <div class="wptb-item--image">
-                    <img src="./assets/img/gallary/2.jpg" alt="img" />
-                  </div>
+              <div class="col-lg-7">
+                <form class="wptb-form" action="contact.php" method="post">
+                  <div class="wptb-form--inner">
+                    <div class="row">
+                      <div class="col-lg-6 col-md-6 mb-4">
+                        <div class="form-group">
+                          <input
+                            type="text"
+                            name="name"
+                            class="form-control"
+                            placeholder="Name*"
+                            required=""
+                          />
+                        </div>
+                      </div>
 
-                  <div class="wptb-item--holder">
-                    <div class="wptb-item--meta">
-                      <h4>
-                        <a href="javascript:void(0)">Abul Hayat & Noyeem</a>
-                      </h4>
-                      <p>Team Noyeem</p>
+                      <div class="col-lg-6 col-md-6 mb-4">
+                        <div class="form-group">
+                          <input
+                            type="email"
+                            name="email"
+                            class="form-control"
+                            placeholder="E-mail*"
+                            required=""
+                          />
+                        </div>
+                      </div>
+
+                      <div class="col-lg-12 col-md-12 mb-4">
+                        <div class="form-group">
+                          <input
+                            type="text"
+                            name="subject"
+                            class="form-control"
+                            placeholder="Subject"
+                          />
+                        </div>
+                      </div>
+
+                      <div class="col-md-12 col-lg-12 mb-4">
+                        <div class="form-group">
+                          <textarea
+                            name="message"
+                            class="form-control"
+                            placeholder="Text"
+                          ></textarea>
+                        </div>
+                      </div>
+
+                      <div class="col-md-12 col-lg-12">
+                        <div class="wptb-item--button">
+                          <button class="btn" type="submit">
+                            <span class="btn-wrap">
+                              <span class="text-first">Send Mail</span>
+                            </span>
+                          </button>
+                        </div>
+                      </div>
                     </div>
                   </div>
-                </div>
+                </form>
               </div>
-
-              <div
-                class="grid-item"
-                style="position: absolute; left: 66.6594%; top: 0px"
-              >
-                <div class="wptb-item--inner">
-                  <div class="wptb-item--image">
-                    <img src="./assets/img/gallary/3.jpg" alt="img" />
-                  </div>
-
-                  <div class="wptb-item--holder">
-                    <div class="wptb-item--meta">
-                      <h4>
-                        <a href="javascript:void(0)">Groups Photography</a>
-                      </h4>
-                      <p>Team Noyeem</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div
-                class="grid-item"
-                style="position: absolute; left: 33.3297%; top: 338.016px"
-              >
-                <div class="wptb-item--inner">
-                  <div class="wptb-item--image">
-                    <img src="./assets/img/gallary/4.jpg" alt="img" />
-                  </div>
-
-                  <div class="wptb-item--holder">
-                    <div class="wptb-item--meta">
-                      <h4>
-                        <a href="javascript:void(0)">Ziaul Faruq Apurba & Noyeem</a>
-                      </h4>
-                      <p>Team Noyeem</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div
-                class="grid-item"
-                style="position: absolute; left: 0%; top: 571.219px"
-              >
-                <div class="wptb-item--inner">
-                  <div class="wptb-item--image">
-                    <img src="./assets/img/gallary/5.jpg" alt="img" />
-                  </div>
-
-                  <div class="wptb-item--holder">
-                    <div class="wptb-item--meta">
-                      <h4>
-                        <a href="javascript:void(0)">Rituparna Sengupta & Noyeem</a>
-                      </h4>
-                      <p>Team Noyeem</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div
-                class="grid-item"
-                style="position: absolute; left: 66.6594%; top: 571.219px"
-              >
-                <div class="wptb-item--inner">
-                  <div class="wptb-item--image">
-                    <img src="./assets/img/gallary/6.jpg" alt="img" />
-                  </div>
-
-                  <div class="wptb-item--holder">
-                    <div class="wptb-item--meta">
-                      <h4>
-                        <a href="javascript:void(0)">Emi Martinez & Noyeem</a>
-                      </h4>
-                      <p>Team Noyeem</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="grid-item"
-                style="position: absolute; left: 66.6594%; top: 571.219px"
-              >
-                <div class="wptb-item--inner">
-                  <div class="wptb-item--image">
-                    <img src="./assets/img/gallary/7.jpg" alt="img" />
-                  </div>
-
-                  <div class="wptb-item--holder">
-                    <div class="wptb-item--meta">
-                      <h4>
-                        <a href="javascript:void(0)">asdasd</a>
-                      </h4>
-                      <p>Team Noyeem</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="grid-item"
-                style="position: absolute; left: 66.6594%; top: 571.219px"
-              >
-                <div class="wptb-item--inner">
-                  <div class="wptb-item--image">
-                    <img src="./assets/img/gallary/8.jpg" alt="img" />
-                  </div>
-
-                  <div class="wptb-item--holder">
-                    <div class="wptb-item--meta">
-                      <h4>
-                        <a href="javascript:void(0)">asdasd</a>
-                      </h4>
-                      <p>Team Noyeem</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="grid-item"
-                style="position: absolute; left: 66.6594%; top: 571.219px"
-              >
-                <div class="wptb-item--inner">
-                  <div class="wptb-item--image">
-                    <img src="./assets/img/gallary/9.jpg" alt="img" />
-                  </div>
-
-                  <div class="wptb-item--holder">
-                    <div class="wptb-item--meta">
-                      <h4>
-                        <a href="javascript:void(0)">asdasd</a>
-                      </h4>
-                      <p>Team Noyeem</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="grid-item"
-                style="position: absolute; left: 66.6594%; top: 571.219px"
-              >
-                <div class="wptb-item--inner">
-                  <div class="wptb-item--image">
-                    <img src="./assets/img/gallary/10.jpg" alt="img" />
-                  </div>
-
-                  <div class="wptb-item--holder">
-                    <div class="wptb-item--meta">
-                      <h4>
-                        <a href="javascript:void(0)">asdasd</a>
-                      </h4>
-                      <p>Team Noyeem</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="grid-item"
-                style="position: absolute; left: 66.6594%; top: 571.219px"
-              >
-                <div class="wptb-item--inner">
-                  <div class="wptb-item--image">
-                    <img src="./assets/img/gallary/11.jpg" alt="img" />
-                  </div>
-
-                  <div class="wptb-item--holder">
-                    <div class="wptb-item--meta">
-                      <h4>
-                        <a href="javascript:void(0)">asdasd</a>
-                      </h4>
-                      <p>Team Noyeem</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="grid-item"
-                style="position: absolute; left: 66.6594%; top: 571.219px"
-              >
-                <div class="wptb-item--inner">
-                  <div class="wptb-item--image">
-                    <img src="./assets/img/gallary/12.jpg" alt="img" />
-                  </div>
-
-                  <div class="wptb-item--holder">
-                    <div class="wptb-item--meta">
-                      <h4>
-                        <a href="javascript:void(0)">asdasd</a>
-                      </h4>
-                      <p>Team Noyeem</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="grid-item"
-                style="position: absolute; left: 66.6594%; top: 571.219px"
-              >
-                <div class="wptb-item--inner">
-                  <div class="wptb-item--image">
-                    <img src="./assets/img/gallary/13.jpg" alt="img" />
-                  </div>
-
-                  <div class="wptb-item--holder">
-                    <div class="wptb-item--meta">
-                      <h4>
-                        <a href="javascript:void(0)">asdasd</a>
-                      </h4>
-                      <p>Team Noyeem</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="grid-item"
-                style="position: absolute; left: 66.6594%; top: 571.219px"
-              >
-                <div class="wptb-item--inner">
-                  <div class="wptb-item--image">
-                    <img src="./assets/img/gallary/14.jpg" alt="img" />
-                  </div>
-
-                  <div class="wptb-item--holder">
-                    <div class="wptb-item--meta">
-                      <h4>
-                        <a href="javascript:void(0)">asdasd</a>
-                      </h4>
-                      <p>Team Noyeem</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="grid-item"
-                style="position: absolute; left: 66.6594%; top: 571.219px"
-              >
-                <div class="wptb-item--inner">
-                  <div class="wptb-item--image">
-                    <img src="./assets/img/gallary/15.jpg" alt="img" />
-                  </div>
-
-                  <div class="wptb-item--holder">
-                    <div class="wptb-item--meta">
-                      <h4>
-                        <a href="javascript:void(0)">asdasd</a>
-                      </h4>
-                      <p>Team Noyeem</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="grid-item"
-                style="position: absolute; left: 66.6594%; top: 571.219px"
-              >
-                <div class="wptb-item--inner">
-                  <div class="wptb-item--image">
-                    <img src="./assets/img/gallary/16.jpg" alt="img" />
-                  </div>
-
-                  <div class="wptb-item--holder">
-                    <div class="wptb-item--meta">
-                      <h4>
-                        <a href="javascript:void(0)">asdasd</a>
-                      </h4>
-                      <p>Team Noyeem</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="grid-item"
-                style="position: absolute; left: 66.6594%; top: 571.219px"
-              >
-                <div class="wptb-item--inner">
-                  <div class="wptb-item--image">
-                    <img src="./assets/img/gallary/17.jpg" alt="img" />
-                  </div>
-
-                  <div class="wptb-item--holder">
-                    <div class="wptb-item--meta">
-                      <h4>
-                        <a href="javascript:void(0)">asdasd</a>
-                      </h4>
-                      <p>Team Noyeem</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="grid-item"
-                style="position: absolute; left: 66.6594%; top: 571.219px"
-              >
-                <div class="wptb-item--inner">
-                  <div class="wptb-item--image">
-                    <img src="./assets/img/gallary/18.jpg" alt="img" />
-                  </div>
-
-                  <div class="wptb-item--holder">
-                    <div class="wptb-item--meta">
-                      <h4>
-                        <a href="javascript:void(0)">asdasd</a>
-                      </h4>
-                      <p>Team Noyeem</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="grid-item"
-                style="position: absolute; left: 66.6594%; top: 571.219px"
-              >
-                <div class="wptb-item--inner">
-                  <div class="wptb-item--image">
-                    <img src="./assets/img/gallary/19.jpg" alt="img" />
-                  </div>
-
-                  <div class="wptb-item--holder">
-                    <div class="wptb-item--meta">
-                      <h4>
-                        <a href="javascript:void(0)">asdasd</a>
-                      </h4>
-                      <p>Team Noyeem</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="grid-item"
-                style="position: absolute; left: 66.6594%; top: 571.219px"
-              >
-                <div class="wptb-item--inner">
-                  <div class="wptb-item--image">
-                    <img src="./assets/img/gallary/20.jpg" alt="img" />
-                  </div>
-
-                  <div class="wptb-item--holder">
-                    <div class="wptb-item--meta">
-                      <h4>
-                        <a href="javascript:void(0)">asdasd</a>
-                      </h4>
-                      <p>Team Noyeem</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!-- End -->
             </div>
           </div>
         </div>
@@ -857,7 +575,7 @@
               <div class="col-lg-4 col-md-4 col-sm-6 mb-5 mb-md-0">
                 <div class="footer-widget">
                   <div class="footer-nav">
-                   <ul>
+                    <ul>
                       <li class="menu-item"><a href="about.html">About</a></li>
                       <li class="menu-item">
                         <a href="gallery.html">Gallery</a>
@@ -1024,6 +742,4 @@
     <!-- Theme Custom JS -->
     <script src="./assets/js/theme.js"></script>
   </body>
-
-  <!-- Mirrored from wpthemebooster.com/demo/themeforest/html/kimono/light/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 19 Nov 2025 06:17:26 GMT -->
 </html>
