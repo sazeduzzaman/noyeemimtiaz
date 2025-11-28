@@ -172,6 +172,9 @@
 .wptb-agency-experience .wptb-heading .wptb-image-single .wptb-item--image {
     margin-left: -60px;
 }
+.wptb-item--image img{
+    border-radius: 20px !important;
+}
 .wptb-agency-experience .wptb-heading .wptb-item--title span {
     font-family: var(--font-family-three);
     -webkit-text-stroke-width: 1px;

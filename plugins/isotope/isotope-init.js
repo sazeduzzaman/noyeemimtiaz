@@ -18,7 +18,7 @@
           transitionDuration: "700ms"
         }).data("isotope");
 
-        var initShow = 9,
+        var initShow = 15,
             loadMoreCount = 3,
             showingItems = initShow;
 
