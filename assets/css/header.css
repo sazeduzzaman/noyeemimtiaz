@@ -630,7 +630,7 @@
 
 .mr_menu {
   width: 300px;
-  background: var(--color-dark-twelve);
+  background: #c9c9c9;
   padding: 20px;
   height: 100%;
   position: fixed;
